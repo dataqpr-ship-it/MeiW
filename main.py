@@ -59,8 +59,8 @@ async def quote_loop():
         except Exception as e:
             print("Quote Error:", e)
 
-        # 4 jam
-        await asyncio.sleep(14400)
+        # 6 jam
+        await asyncio.sleep(21600)
 
 
 async def handle_commands():
